@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+    "jsx": "react",  // This enables JSX syntax in your TypeScript files
+    "strict": true,  // Optional, but recommended for better type-checking
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"]
+      },
+      "allowJs": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist"]
+  }
+  
